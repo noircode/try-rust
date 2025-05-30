@@ -1,0 +1,41 @@
+# Ignore all target folders in any subdirectory
+**/target/
+
+# Ignore all backup and swap files
+*~
+*.swp
+*.swo
+*.bak
+*.rs.bk
+
+# Ignore IDE/editor folders and files
+**/.idea/
+**/*.iml
+**/.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# dotenv files
+**/.env
+**/.env.*
+
+# Logs
+**/*.log
+
+# Coverage files
+**/coverage/
+**/*.lcov
+
+# Compiled binaries and dynamic libraries
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+
+# Optional: ignore Cargo.lock for libraries
+# Uncomment the line below if your sub-projects are libraries
+# **/Cargo.lock
